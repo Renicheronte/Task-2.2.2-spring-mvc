@@ -39,16 +39,6 @@ public class Car {
         this.yearOfIssue = yearOfIssue;
     }
 
-    public static List<Car> createCarsList() {
-        List<Car> carsList = new ArrayList<>();
-        carsList.add(new Car("VAZ", "2109", 2003));
-        carsList.add(new Car("VAZ", "2112", 2011));
-        carsList.add(new Car("Mercedes", "B-class", 2015));
-        carsList.add(new Car("Mercedes", "CLS", 2008));
-        carsList.add(new Car("McLaren", "650", 2022));
-        return carsList;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
